@@ -1,0 +1,349 @@
+/* general design started*/
+
+a{
+    text-decoration: none;
+}
+
+ul>li{
+list-style-type: none;
+}
+
+/* header started*/
+.site-header{
+    background-color: white;
+}
+
+.header-left{
+    display: inline-block;
+    width: 17%;
+    margin-left: 3%;
+    margin-top: 10px;
+    
+}
+.header-right{
+    display: inline-block;
+    width: 70%;
+     text-align: right;
+     padding-right: 9%
+}
+.site-navigation>ul>li{
+    display: inline-block;
+    list-style-type: none;
+  
+}
+.site-navigation>ul>li>a{
+    color: #9C9C9C;
+}
+
+/* header ended */
+
+/* main 1st (intro) section started */
+.intro{
+    background-color: #FAF9FF;
+    text-align: center
+}
+.intro>.info{
+    vertical-align: top;
+    display: inline-block;
+    width: 40%;
+    margin-top: 8%;
+    margin-left: 8%;
+    
+}
+.intro>.man-photo{
+    display: inline-block;
+    width: 49%;
+}
+.intro>.info>.header{
+    text-align: left;
+  padding-top: 1%;
+}
+.intro>.info>.header>p{
+   font-size:  1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #715D6D;
+}
+.intro>.info>.header>h2{
+    font-size: 4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #232323;
+}
+.intro>.info>p{
+     color: #A8ADB3;
+     text-align: justify;
+     vertical-align: top;
+}
+  
+.intro>.info>.button>button{
+    display: inline-block;
+    margin-right: 70%;
+    height: 38px;
+    width: 28%;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #8B91E6, #68BBF5);
+}
+/* main 1st (intro) section ended */
+
+/* main 2nd (short-bio) section started */
+.short-bio{
+    margin-top: 5%;
+    text-align: center;
+}
+.short-bio>.man-picture{
+display: inline-block;
+
+margin-left: 5%;
+}
+.short-bio>.text{
+    display: inline-block;
+    width: 41%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 8%;
+}
+.short-bio>.text>.header{
+    text-align: left;
+  padding-top: 1%;
+}
+.short-bio>.text>.header>p{
+   font-size:  1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #715D6D;
+}
+.short-bio>.text>.header>h2{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #232323;
+}
+.short-bio>.text>p{
+     color: #A8ADB3;
+     text-align: justify;
+     vertical-align: top;
+     padding-right: 18%;
+}
+
+.short-bio>.text>.button>button{
+    display: inline-block;
+    margin-right: 70%;
+    height: 38px;
+    width: 28%;
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #8B91E6, #68BBF5);
+}
+/* main 2nd (short-bio) section ended */
+
+/* main 3rd (services) section started */
+.services{
+    text-align: center;
+    margin-right: 3%;
+}
+.services>.header>h2{
+    font-size: 2.5em;
+}
+.services>.header>p{
+    color: #B4B3B5;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.sevices-list{
+    padding-top: 1%;
+}
+.sevices-list>ul>li{
+    display: inline-block;
+    width: 28.5%;
+    padding-bottom: 2%;
+
+}
+.sevices-list>ul>li>p{
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    color: #ABAAAE;
+}
+
+/* main 3rd (services) sec  tion ended */
+
+/* main 4th (projects) section started */
+.projects{
+    text-align: center;
+    margin-right: 3%;
+}
+.projects>.header>h2{
+    font-size: 2.5em;
+}
+.projects>.header>p{
+    color: #B4B3B5;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.projects>.projects-type{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.projects>.projects-type>nav>ul>li{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-bottom: 2%;
+    
+}
+
+.project-samples>ul>li{
+  
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 1%;
+
+}
+.project-samples>ul>li>p{
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    color: #ABAAAE;
+}
+
+/* main 4th (projects) section ended */
+
+/* main 5th (plans) section started */
+.plans{
+    text-align: center;
+    background-color: #FAF9FF;
+}
+.plans>.header>h2{
+    font-size: 2.5em;
+}
+.plans>.header>p{
+    color: #B4B3B5;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+.plans>.plans-list>ul>li{
+    display: inline-block;
+    width: 16%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+}
+.plans>.plans-list>ul>li>.active{
+    font-weight: 800;
+    font-size: 2.5em;
+}
+.plans>.plans-list>ul>li>.passive{
+  color: #C0BFC5;
+}
+.plans>.plans-list>ul>li>.price{
+    font-weight: 800;
+    font-size: 2.5em;
+}
+/* main 5th (plans) section ended */
+
+/* main 6th (latest-posts) section started */
+.latest-posts{
+    text-align: center;
+    background-color: #FAF9FF;
+}
+.latest-posts>.header>h2{
+    font-size: 2.5em;
+}
+.latest-posts>.header>p{
+    color: #B4B3B5;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding-bottom: 2%;
+}
+.latest-posts>.post-samples>ul>li{
+    display: inline-block;
+    width: 27%;
+    padding-bottom: 1%;
+}
+.latest-posts>.post-samples>ul>li>h3{
+    text-align: left;
+    margin-left: 13%;
+    margin-right: 14%;
+    font-size: 0.8em;
+}
+.latest-posts>.post-samples>ul>li>p{
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: justify;
+    color: #B4B3B5;
+}
+/* main 6th (latest-posts) section started */
+/* footer top started  */
+.footer>.footer-top{
+    height: 200px;
+    text-align: center;
+    background: linear-gradient(to right, #8490FF, #61BCFB);
+}
+.footer>.footer-top>ul{
+    position: relative;
+    top: 30%;
+    
+}
+.footer>.footer-top>ul>li{
+        display: inline-block;
+        width: 16%;
+}
+/* footer top ended  */
+
+/* footer bottom started  */
+.footer>.footer-bottom{
+    text-align: center;
+        height: 400px;
+    background-color: #04091D;
+}
+.footer>.footer-bottom>ul{
+    position: relative;
+    top: 25%;
+    
+}
+.footer>.footer-bottom>ul>li{
+    display: inline-block;
+    width: 25%;
+}
+.footer>.footer-bottom>ul>li>h3{
+    text-align: left;
+    color: white
+}
+.footer>.footer-bottom>ul>li>p{
+    text-align: left;
+    color: #3A4150;
+}
+.footer>.footer-bottom>ul>.info{
+    width: 32%;
+    margin-right: 8%;
+    
+}
+.footer>.footer-bottom>ul>.subscribe{
+    width: 30%;
+}
+.footer>.footer-bottom>ul>.social{
+    width: 10%;
+}
+
+.footer form{
+text-align: left;
+
+}
+
+.footer .icons{
+    text-align: left;
+    padding-left: 3%;
+}
+/* footer bottom ended  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
