@@ -1,0 +1,416 @@
+body {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+p {
+    color: #777;
+}
+
+.header-logo {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 997;
+    padding: 5px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-nav li:hover>a {
+    color: #8490ff !important;
+}
+
+.navbar-nav li>a {
+    color: black!important;
+    font-size: 12px;
+    margin: 0px 3px;
+}
+
+.navbar-nav li>.blue {
+    color: #8490ff !important;
+}
+
+.PHILIP {
+    background-color: #F9F9FF;
+}
+
+.card-philip {
+    background-color: #F9F9FF;
+}
+
+.mini1 {
+    letter-spacing: 2px;
+}
+
+.card-subtitle-1 {
+    margin: 20px 0px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.img-fluid {
+    margin-top: 130px;
+}
+
+.cardd-body {
+    padding: 45px;
+}
+
+.card-title {
+    font-weight: 400;
+}
+
+.card-subtitle-2 {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 30px 0px 40px;
+}
+
+.card-about {
+    padding: 0px 0px 0px 30px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px 0px 20px;
+}
+
+.card-body {
+    padding: 11px;
+}
+
+.rounded {
+    width: 35px;
+}
+
+.col-sm {
+    margin: 60px 0px 0px;
+}
+
+.group-card-text {
+    margin: 0px 16px 16px 16px;
+}
+
+.base-card-title {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.base-cardgroup {
+    padding: 120px 0px;
+}
+
+.counter {
+    background-color: #75A5FE;
+    padding: 120px;
+}
+
+.count {
+    font-size: 36px;
+    color: white;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.count-name {
+    color: white;
+}
+
+.projects h1, .projects p {
+    text-align: center;
+}
+
+.projects {
+    padding: 120px 0px;
+}
+
+.project-title {
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 600;
+}
+
+.proects-links ul li a {
+    color: black;
+    font-size: 12px;
+}
+
+.proects-links ul li>.act {
+    color: #8490ff;
+}
+
+.proects-links ul li {
+    padding: 18px 15px;
+}
+
+.project-header {
+    padding: 0px 15px 70px;
+    text-align: center;
+}
+
+.links-nav {
+    padding-bottom: 60px;
+}
+
+.card_title {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.card_body {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.cardtext {
+    margin-bottom: 16px;
+}
+
+.cartextlink:hover {
+    color: #8490ff;
+    text-decoration: none;
+}
+
+.cartextlink {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.point {
+    cursor: pointer;
+}
+
+.CEO>img {
+    width: 37px;
+}
+
+.about-for-client {
+    padding: 120px 0px;
+    background-color: #F9F9FF;
+}
+
+.Ceos {
+    padding: 25px 30px 12px;
+}
+
+.posts {
+    padding: 120px 0px;
+}
+
+.posts-number {
+    background-color: #f9f9ff;
+}
+
+.Numbers {
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    background-color: rgba(132, 144, 255, 0.1);
+    border-radius: 100px;
+    text-align: center;
+    display: grid;
+    border: 30px solid rgba(132, 144, 255, 0.1);
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 0;
+}
+
+.top-part {
+    text-align: center;
+}
+
+.mt-10 {
+    margin: 10px 0 16px;
+}
+
+.number-list {
+    padding: 15px 0 30px;
+}
+
+.number-list>ul>li {
+    padding: 10px 0;
+    list-style: none;
+    text-align: center;
+    color: #777;
+    border-bottom: 1px solid #eee;
+}
+
+.number-list>ul>.secure {
+    border-top: 1px solid #eee;
+}
+
+.bottom-part>h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.our-blog {
+    padding: 120px 0;
+    background-color: #F9F9FF;
+}
+
+.our-blog h1 {
+    margin: 0 0 25px;
+}
+
+.our-blog .header {
+    margin: 0 0 45px;
+}
+
+.CARD {
+    cursor: pointer;
+}
+.CARD p {
+    text-align: left;
+}
+
+.endspan {
+    margin-left: auto;
+}
+
+.CARD .card-in-body {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.date img, .footer-text>img {
+    width: 14px;
+}
+
+.card-in-body a {
+    color: black;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.date {
+    color: #777;
+}
+
+.card-in-text {
+    margin: 15px 0px 45px;
+}
+
+.card-in-title {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-in-title a {
+    color: black;
+}
+
+.card-in-title a:hover {
+    color: #8490ff;
+    text-decoration: none;
+}
+
+.blue-area {
+    background-color: #76A2FD;
+    padding: 80px 0px;
+}
+
+.brand1 {
+    margin: 0 41.5px;
+    padding: 10px;
+}
+
+.brand2 {
+    margin: 0 36px;
+    padding: 10px;
+}
+
+.brand3 {
+    margin: 0 38px;
+    padding: 10px;
+}
+
+.brand4 {
+    margin: 0 19px;
+    padding: 10px;
+}
+
+.brand5 {
+    margin: 0 37px;
+    padding: 10px;
+}
+
+.contact {
+    background-color: #04091e;
+    padding: 120px 0;
+}
+
+.footer-title {
+    color: white;
+    font-size: 18px;
+}
+
+.form-control {
+    border: none;
+    font-weight: 300;
+    background: #f9f9ff;
+    padding: 6px 12px 6px 20px;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: normal !important;
+    color: #222;
+}
+
+.footer-input {
+    padding: 0;
+}
+
+.input-button {
+    padding: 0;
+}
+
+.input-button>button {
+    background-color: #8490FF;
+    border-color: #8490FF;
+    padding: 4px;
+}
+
+.input-button>button>img {
+    text-align: center;
+}
+
+.footer-about li a img {
+    width: 14px;
+}
+
+.footer-about li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-title {
+    margin: 0 0 25px;
+}
+
+.footer-text {
+    margin: 0 0 16px;
+}
+
+.icon-footer {
+    padding: 0 5px;
+}
+.Card-icon{
+    margin: 0 3px;
+}
